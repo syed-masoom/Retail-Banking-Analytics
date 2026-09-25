@@ -1,0 +1,282 @@
+🏦 Business Case: Retail Banking Customer & Loan Performance Analytics
+Company
+
+Nexus Bank India (fictional)
+
+Nexus Bank is a mid-sized retail bank operating across major Indian cities. It offers personal, home, auto, education, business and gold loans along with savings/current accounts and digital banking services.
+
+The bank's leadership team has noticed that:
+
+Loan applications are growing, but approval rates vary considerably.
+Some loan products have significantly higher delinquency.
+Branch performance varies across regions.
+Digital channels are growing, but management doesn't know whether they attract better customers.
+Some customer segments use multiple banking products while others remain low-engagement.
+Management wants better visibility into credit-risk and loan-portfolio performance.
+
+The CEO has asked the Analytics team to investigate.
+
+🎯 Your Role
+
+You are a:
+
+Business/Data Analyst – Retail Banking Analytics
+
+You report to:
+
+Head of Retail Banking
+
+Your stakeholders are:
+
+Chief Executive Officer
+Head of Retail Banking
+Chief Risk Officer
+Head of Sales
+Regional Managers
+Branch Managers
+Finance Team
+
+Your job isn't simply to create charts.
+
+Your job is to answer:
+
+"What is happening in our retail banking business, why is it happening, and what should management investigate or change?"
+
+📋 Stakeholder Requirement
+Message from Head of Retail Banking
+
+Subject: Retail Banking Customer & Loan Performance Review
+
+We need a comprehensive analysis of our retail banking customer and loan portfolio.
+
+Senior management currently receives separate reports from branches, sales and risk teams. These reports don't provide a unified view of customer behavior, loan performance and branch/channel performance.
+
+I want the Analytics team to create a single analytical view of our retail banking business.
+
+Specifically, we need to understand:
+
+How our customer base is distributed across segments and geographies.
+How loan applications are performing.
+Which loan products and customer segments are driving the portfolio.
+Where approval and rejection rates are highest.
+Where delinquency and default risk appears concentrated.
+How branches and acquisition channels are performing.
+How customer transaction behavior differs across segments.
+Whether digital acquisition channels are producing meaningful customer activity.
+
+The final analysis should identify the most important business issues and provide actionable recommendations for management.
+
+🔥 Your Core Business Questions
+
+Don't create 50 random KPIs.
+
+Organize the analysis around 5 business areas.
+
+1️⃣ Customer Portfolio Analysis
+Management wants to know:
+
+Who are our customers?
+
+Analyze:
+
+Total customers
+Customer segments
+Age distribution
+Gender
+Employment type
+Occupation
+Income
+Credit score
+Geography
+Existing products
+Questions
+
+Which customer segments represent the largest customer base?
+
+Which segments have higher income?
+
+Which segments have stronger credit profiles?
+
+Which cities/regions have the strongest customer presence?
+
+Which customers have multiple banking products?
+
+2️⃣ Loan Acquisition & Sales Performance
+
+Now move from customers to loans.
+
+KPIs
+Total applications
+Approved applications
+Rejected applications
+Approval rate
+Requested amount
+Approved amount
+Average loan amount
+Applications by month
+Applications by loan type
+Applications by channel
+Management question:
+
+"Where is our loan business coming from?"
+
+Analyze:
+
+Loan Type
+      ↓
+Application
+      ↓
+Approval
+      ↓
+Approved Amount
+Important analysis
+
+Compare:
+
+Loan Type	Applications	Approval %	Requested Amount	Approved Amount
+Personal				
+Home				
+Auto				
+Education				
+Business				
+Gold				
+
+Don't just show the table.
+
+Ask:
+
+Why are some products receiving many applications but relatively low approvals?
+
+3️⃣ Credit Risk & Loan Quality
+
+This is where your project becomes much more industry-oriented.
+
+The Chief Risk Officer wants to understand:
+
+"Where is our loan portfolio showing signs of risk?"
+
+Analyze:
+
+Loan Status
+Active
+Closed
+Defaulted
+Written Off
+Rejected
+Risk indicators
+Credit Score
+Days Past Due
+Loan Type
+Income
+Employment
+Loan Amount
+Interest Rate
+Customer Segment
+Important KPIs
+Default Rate
+Defaulted Loans
+---------------- × 100
+Total Approved Loans
+Delinquency Rate
+Loans with DPD > 30
+-------------------- × 100
+Active Loans
+Approval Rate
+Approved Applications
+--------------------- × 100
+Total Applications
+🚨 Critical Analysis
+
+Don't say:
+
+"Default rate is 13%."
+
+That's just reporting.
+
+Instead investigate:
+
+Which customer segments contribute disproportionately to defaults?
+
+For example:
+
+Customer Segment
+       ↓
+Employment Type
+       ↓
+Credit Score Band
+       ↓
+Loan Type
+       ↓
+Default / DPD
+
+Your goal is root-cause analysis, not just visualization.
+
+4️⃣ Branch & Channel Performance
+
+Now imagine you're presenting to the Head of Sales.
+
+They ask:
+
+"Which branches and acquisition channels are actually performing well?"
+
+Analyze:
+
+Branch
+Applications
+Approval %
+Approved amount
+Average loan size
+Default rate
+Customer count
+Channel
+Branch
+Website
+Mobile App
+DSA/Agent
+Relationship Manager
+
+Compare:
+
+Channel
+   ↓
+Applications
+   ↓
+Approval
+   ↓
+Loan Value
+   ↓
+Portfolio Quality
+
+This is important because high application volume doesn't necessarily mean high-quality business.
+
+5️⃣ Customer Engagement & Banking Behavior
+
+The Head of Retail Banking also wants to know:
+
+"Are our customers actually using the bank?"
+
+Use the transaction table.
+
+Analyze:
+
+Transaction volume
+Transaction value
+Transaction type
+Channel
+Customer segment
+Loan status
+Income
+Existing products
+Example question
+
+Do customers with multiple banking products demonstrate higher transaction activity?
+
+You can investigate:
+
+Existing Products
+       ↓
+Transaction Frequency
+       ↓
+Transaction Value
+       ↓
+Customer Segment
