@@ -1,0 +1,22 @@
+We have 6,800+ transactional/application records plus customer and branch dimensions, rather than simply 2,500 rows.
+
+Deliberate messiness included
+
+You'll find issues such as:
+- Missing income values
+- Missing credit scores
+- Missing occupations
+- Bengaluru / Bangalore inconsistency
+- Male / male inconsistency
+- Mixed loan-status capitalization
+- Personal Loan vs Personal
+- Interest rates stored partly as numbers and partly as "8.8%"
+- Mixed date formats
+- Amounts stored as text in some records
+- Missing values
+- Multiple customer records across transactions/loans
+- Different application channels
+- Different branch types
+- Realistic loan defaults and overdue days
+
+This gives you opportunities to demonstrate Excel/Power Query data cleaning + SQL cleaning + Power BI transformation.
