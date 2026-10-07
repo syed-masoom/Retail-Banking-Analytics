@@ -3,7 +3,7 @@ We have 6,800+ transactional/application records plus customer and branch dimens
 ## Dataset Structure
 
 | Sheet | Rows | Purpose |
-|---|---:|---|
+|---:|---:|---|
 | `Customers` | 850 | Customer demographics, income, credit score, segment |
 | `Loan_Applications` | 3,200 | Loan applications, approvals, amounts, interest, DPD |
 | `Transactions` | 3,600 | Banking transactions and customer activity |
