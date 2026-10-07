@@ -1,7 +1,17 @@
 We have 6,800+ transactional/application records plus customer and branch dimensions, rather than simply 2,500 rows.
 
-Deliberate messiness included
+## Dataset Structure
 
+| Sheet | Rows | Purpose |
+|---|---:|---|
+| `Customers` | 850 | Customer demographics, income, credit score, segment |
+| `Loan_Applications` | 3,200 | Loan applications, approvals, amounts, interest, DPD |
+| `Transactions` | 3,600 | Banking transactions and customer activity |
+| `Branches` | 18 | Branch/location information |
+| `Loan_Analysis` | 3,200 | Joined analysis-ready view |
+| `Data_Dictionary` | — | Table documentation |
+
+## Deliberate messiness included
 You'll find issues such as:
 - Missing income values
 - Missing credit scores
@@ -19,4 +29,4 @@ You'll find issues such as:
 - Different branch types
 - Realistic loan defaults and overdue days
 
-This gives you opportunities to demonstrate Excel/Power Query data cleaning + SQL cleaning + Power BI transformation.
+This gives me opportunities to demonstrate Excel/Power Query data cleaning + SQL cleaning + Power BI transformation to build End to End Data Analytics workflow.
